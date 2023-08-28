@@ -1,0 +1,88 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: white;
+}
+
+body {
+   font-family: 'Roboto', Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   background-color: #15253d;
+}
+
+h1 {
+   font-family: 'Rancho', cursive;
+   font-size: 3.5rem;
+   font-weight: 400;
+}
+
+.main {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 80px;
+   position: relative;
+}
+
+.game {
+   box-shadow: 10px 5px 15px rgb(118, 106, 188);
+   background-color: #28416b;
+}
+
+.game,
+form {
+   padding: 1.8rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.game>div {
+   padding: 0.5rem;
+}
+
+.form input,
+.form label,
+.form button {
+   margin-top: 1rem;
+}
+
+.form input,
+.form button {
+   font-size: inherit;
+   font-family: inherit;
+   padding: 0.5rem;
+   color: black;
+}
+
+.form button {
+   cursor: pointer;
+   color: black;
+}
+
+.form button:hover {
+   filter: opacity(0.8);
+}
+
+.footer {
+   text-align: center;
+   padding: 1rem;
+   background-color: #0e1829;
+   color: black;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+.logo-if {
+   width: 200px;
+   height: 200px;
+   float: right;
+   margin-left: 20px;
+}
+
